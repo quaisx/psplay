@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	organization := flag.String("org", "ECMA Corporation", "Organization name for which to generate the certificate")
+	organization := flag.String("org", "ECME Corporation", "Organization name for which to generate the certificate")
 	dnsname := flag.String("dnsname", "localhost", "DNS name for the server serving this certificate")
 	expires := flag.Int("expire", 0, "When this certificate expires in hours; 0 -> good for 99 years")
 	help := flag.Bool("help", false, "Help")
